@@ -18,8 +18,8 @@
 # The return value is false, since the string value "Hello" is only found at the beginning of the string value "Hello World" and not at the end.
 "Hello World".end_with?("Hello")
 
-# The end_wish method is called on the string "Hello World."
-# The string "rld" is passed as an arguement; the job of the include method is to return a boolean value (true, false) upon execution depending on whether the string value "rld" which is passed as an arguement is present at the end of the string value "Hello World".
+# The end_with method is called on the string "Hello World."
+# The string "rld" is passed as an arguement; the job of the include end_with? is to return a boolean value (true, false) upon execution depending on whether the string value "rld" which is passed as an arguement is present at the end of the string value "Hello World".
 # The return value is true, since the string value "rld" is found at the end of the string value "Hello World".
 "Hello World".end_with?("rld")
 
@@ -40,6 +40,19 @@
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/String.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The end_with method is called on the variable thing_1 assigned the string value "Tank".
+# The string "nk" is passed as an arguement; the job of the end_with? method is to return a boolean value (true, false) upon execution depending on whether the string value "nk" which is passed as an arguement is present at the end of the variable thing_1.
+# The return value is true, since the string value "nk" is found at the end of the variable thing_1 string value "Tank".
+
+# The include method is called on the variable thing_2 assinged the string value "Hello World".
+# The string value "z" is passed as an arguement; the job of the include method is to return a boolean value (true, false) upon execution depending on whether the string value "z" which is passed as an arguement is found in the variable thing_2.
+# The return value is false, since the string value "z" is not present in "Gloves" which is the value of the variable thing_2.
+thing_1 = "Tank"
+thing_2 = "Gloves"
+
+puts thing_1.end_with?("nk")
+puts thing_2.include?("z")
 
 # EXAMPLE
 # The start_with? method is called on the first_name variable, which stores the string object "Jeff". 
