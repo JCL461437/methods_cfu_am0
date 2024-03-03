@@ -8,19 +8,29 @@
 # The return value is "hello world"
 "Hello World".downcase
 
-
+# The include method is called on the string "Hello World".
+# The string "Hello" is passed as an arguement; the job of the include method is to return a boolean value (true, false) upon execution depending on whether the string value "Hello" which is passed as an arguement is found in the string "Hello World".
+# The return value is true, since the string "Hello" is present in "Hello World".
 "Hello World".include?("Hello")
 
-
+# The end_wish method is called on the string "Hello World."
+# The string "Hello" is passed as an arguement; the job of the end_wish? method is to return a boolean value (true, false) upon execution depending on whether the string value "Hello" which is passed as an arguement is present at the end of the string value "Hello World".
+# The return value is false, since the string value "Hello" is only found at the beginning of the string value "Hello World" and not at the end.
 "Hello World".end_with?("Hello")
 
-
+# The end_wish method is called on the string "Hello World."
+# The string "rld" is passed as an arguement; the job of the include method is to return a boolean value (true, false) upon execution depending on whether the string value "rld" which is passed as an arguement is present at the end of the string value "Hello World".
+# The return value is true, since the string value "rld" is found at the end of the string value "Hello World".
 "Hello World".end_with?("rld")
 
-
+# The even method is called on the integer value 12.
+# No arguements are passed; the method even? does not need to pass any arguements to complete its function. 
+# The return value is true since twelve is an even number.
 12.even?
 
-
+# The next method is called on the integer value 18.
+# No arguements are passed; the method next does not need to pass any arguements to complete its function. 
+# The return value is the integer 19, which is the following integer numerically after 18. 
 18.next
 
 
