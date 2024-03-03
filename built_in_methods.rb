@@ -70,6 +70,19 @@ puts first_name.start_with?("J")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# The to_f method is called on the variable best_num assigned the integer value 1.
+# No arguements are passed; to_f has one clear job which is to convert the integer value of best_num to a float value. 
+# The return value is 1.0, since the converted float value of the integer 1 is 1.0 (simply adding a decimal point to the whole number).
+
+# The zero? method is called on the variable big_num assigned the integer value 9999.
+# No arguements are passed; zero? has one clear job which is return a boolean value (true or false) depending on whether or not the integer value of the variable big_num has the 0 value present. 
+# The return value is false, since the integer value assinged to big_num 9999 has no 0 present in its value. 
+
+best_num = 1
+big_num = 9999
+
+puts best_num.to_f
+puts big_num.zero?
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
@@ -77,3 +90,6 @@ puts first_name.start_with?("J")
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+martial_arts = [BJJ, Muay Thai, Wrestling, Boxing]
+protein_options= [Steak, Chicken, Salmon]
