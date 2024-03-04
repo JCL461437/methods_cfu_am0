@@ -45,8 +45,8 @@ puts bill_greeting
 def greet_person(first_name, middle_name, last_name)
     "Hello and welcome #{first_name} #{middle_name} #{last_name}!"
 end
-jeffy_greeting = greet_person(Jeffy, Joe, Williams)
-barry_greeting = greet_person(Barry, Bob, Sanders)
+jeffy_greeting = greet_person("Jeffy", "Joe", "Williams")
+barry_greeting = greet_person("Barry", "Bob", "Sanders")
 
 puts jeffy_greeting
 puts barry_greeting
@@ -61,9 +61,23 @@ puts barry_greeting
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square(integer)
+    square = integer * integer
+    "The square of your integer, #{integer} is #{square}."
+end
+
+square_three = square(3)
+square_seven = square(7)
+
+puts square_three
+puts square_seven
+
 # What is the return value of your method?
+# The return value of my method is "The square of your integer, #{integer} is #{square}.", where #{integer} is a parameter that holds whatever integer is entered as an argument when the method is called and where #{square} is a parameter holding the result of #{integer} being multiplied by itself.
 # How many arguments did you pass your method?
+# I passed one arguement in my method, the integer.
 # What data type was your argument(s)?
+# My arguements were integers, since the purpose of the method was to find the square of the integer entered as an arguement.
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
