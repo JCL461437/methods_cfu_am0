@@ -1,4 +1,6 @@
 # Self-Evaluation
 
 - Reflect on your learning and work today. What are you most proud of?
+I am most proud of understanding the connection between the built in methods and the created methods in that they are fundamentally the same thing. Before, I was confused what the origins of methods such as 'push' or 'unshift' during the initial data types lesson towards the beginning of mod 0. Now, with the knowledge of how to create our own methods, the pre-existing methods make more sense and that new level of understanding is very helpful and is rewarding. 
 - What is the power of using methods in our applications?
+There is a number of reasons why using methods in our applications is powerful. Methods allow greater efficiency in that they can allow us to construct code that can be called on multiple times using only one line after the method is constructed instead of having to write out all the code within the method over and over again in seperate instances. Additionally, methods allow us to also be more productive by reducing the ammount of time we need to program monotous and repetitive code that can be handled by a couple methods which will quickly recycle code in a powerful way. 
