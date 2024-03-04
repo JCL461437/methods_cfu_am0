@@ -91,5 +91,16 @@ puts big_num.zero?
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
 
-martial_arts = [BJJ, Muay Thai, Wrestling, Boxing]
-protein_options= [Steak, Chicken, Salmon]
+# The insert method is called on the variable martial_arts assigned to an array with string values at elements 0 through 3.
+# The arguement 1 is passed as 1 is the location of the element where the other arguement "Sambo" will be added into the array along with the existing elements. 
+# The return value is "BJJ", "Sambo", "Muay Thai", "Wrestling", "Boxing" since the new string value "Sambo" has been assinged to element 1 of the variable martial_arts by passing the arguements 1 and "Sambo"." 
+
+# The count method is called on the variable protein_options assigned to an array with string values at elements 0 through 2.
+# No arguements are being passed in this appliation of the count method, because we are only curious in the ammount of portein options in our array (or elements). Thus it is unecessary to add arguements into the method. 
+# The return value is 3, since the number of elements in the array portein_options totals 3, including elements 0, 1, and 2, which are the string values "Steak", "Chicken", and "Salmon".
+
+martial_arts = ["BJJ", "Muay Thai", "Wrestling", "Boxing"]
+protein_options = ["Steak", "Chicken", "Salmon"]
+
+puts martial_arts.insert(1, "Sambo")
+puts protein_options.count()
